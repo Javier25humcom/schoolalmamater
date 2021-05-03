@@ -1,0 +1,110 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+  margin-left:50px;
+}
+body {
+  margin: 5px;
+  background-color: black;
+}
+/* Style the header */
+header {
+  padding: 5px;
+  padding: 5px;
+  float: left;
+}
+/* Style the top navigation bar */
+nav {
+  flow: left;
+  overflow: hidden;
+  background-color: #333;
+  width:37%;
+  border-color: brown;
+  border-style: solid;
+  margin-left:40%;
+}
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 20px 20px;
+  text-decoration: none;
+  margin-right:5%;
+}
+/* Change color on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+section {
+  float: none;
+  width: 90%;
+  padding: 15px;
+  clear: both;
+  margin: 20px;
+}
+.section1 {
+  background-color: #C47451;
+  border-color: black;
+  border-style: solid; 
+}
+.section2 {
+  background-color: #C47451;
+  border-color: black;
+  border-style: solid; 
+}
+h1{
+  background-color: brown;
+  border-color: black;
+  border-style: solid;
+  padding: 0px;
+  width:80%;
+  text-align:center;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  section {
+    width: 100%;
+  }
+}
+footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  }
+article{
+  background-image: url('background.jpg');
+  margin-left:25px;
+  clear: both;
+  border-color: brown;
+  border-style: solid;
+  width:95%;
+}
+.row1{
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  width:30%;
+  margin-left:30%;
+}
+body {
+  background-image: url('background.png');
+  background-attachment: fixed;
+  background-size: 80% 50%;
+}
+.row2{
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  width:30%;
+  margin-left:30%;
+  border-color: brown;
+  border-style: solid;
+}
+
+</style>
